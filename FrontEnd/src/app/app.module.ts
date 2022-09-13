@@ -15,6 +15,8 @@ import { StudentComponent } from './admin/student/student.component';
 import { DriverComponent } from './admin/driver/driver.component';
 import { SidebarComponent } from './admin/sidebar/sidebar.component';
 import { AdddriverComponent } from './adddriver/adddriver.component';
+import { ComplaintComponent } from './pages/complaint/complaint.component';
+import { FooterComponent } from './sharepage/navbar/footer/footer.component';
 
 
 
@@ -30,6 +32,8 @@ import { AdddriverComponent } from './adddriver/adddriver.component';
     DriverComponent,
     SidebarComponent,
     AdddriverComponent,
+    ComplaintComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,

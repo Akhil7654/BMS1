@@ -8,6 +8,7 @@ import { StudentComponent } from './admin/student/student.component';
 import { SidebarComponent } from './admin/sidebar/sidebar.component';
 import { DriverComponent } from './admin/driver/driver.component';
 import { AdddriverComponent } from './adddriver/adddriver.component';
+import { ComplaintComponent } from './pages/complaint/complaint.component';
 
 
 const routes: Routes = [
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path:'admin',component:SidebarComponent},
   {path:'student',component:StudentComponent},
   {path:'driver',component:DriverComponent},
-  {path:'adddriver',component:AdddriverComponent}
+  {path:'adddriver',component:AdddriverComponent},
+  {path:'complaint',component:ComplaintComponent}
   
 ];
 
